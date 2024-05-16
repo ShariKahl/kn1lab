@@ -5,7 +5,9 @@ users:
     sudo: ALL=(ALL) NOPASSWD:ALL
     shell: /bin/bash
     ssh_authorized_keys: 
-    - <Öffentlicher SSH Schlüssel>
+    - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK8DkrwnXIab+CwG87mTqvS6Ed6XmY9/jd3xsseM1RI2 I550271@FVFF9527Q05N
+
+
 runcmd:
  - [ git, clone, https://github.com/owaldhorst-hka/CPUnetPLOT ]
  - [ cd, /home/labrat]
